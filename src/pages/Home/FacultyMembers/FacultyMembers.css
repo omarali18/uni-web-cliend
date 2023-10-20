@@ -1,0 +1,26 @@
+.FacultySlider{
+    margin: 0 5%;
+}
+.FacultySlider p{
+    font-size: 25px;
+    color: #0089CF;
+    font-weight: 500;
+}
+.FacultySlider .owl-carousel .owl-stage-outer .owl-stage .owl-item{
+    width: 300px!important;
+}
+.facultyDetail{
+    position: absolute;
+    bottom: 0px;
+    background-color: #00000070;
+    width: 100%;
+    padding: 10px;
+}
+.facultyDetail .facultyName{
+    margin-bottom: 0;
+    color: #FFB606;
+}
+.facultyDetail .facultyTitle{
+    font-size: 14px;
+    color: #fff;
+}

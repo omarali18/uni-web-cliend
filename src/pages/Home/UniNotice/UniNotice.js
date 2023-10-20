@@ -81,7 +81,7 @@ const UniNotice = () => {
 
 
     return (
-        <div>
+        <div style={{ marginBottom:"6em" }}>
             <div className="row">
                 <div className="col-md-6 newsPart">
                     <p>News</p>

@@ -3,6 +3,7 @@ import Top from '../Top/Top';
 import Navbar from '../Navbar/Navbar';
 import Banner from '../Banner/Banner';
 import UniNotice from '../UniNotice/UniNotice';
+import SliderTest from '../SliderTest/SliderTest'
 import FacultyMembers from '../FacultyMembers/FacultyMembers';
 
 const HomePage = () => {
@@ -13,6 +14,8 @@ const HomePage = () => {
             <Banner/>
             <UniNotice/>
             <FacultyMembers/>
+            {/* <SliderTest/> */}
+            
         </div>
     );
 };
