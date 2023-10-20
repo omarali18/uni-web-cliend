@@ -1,0 +1,93 @@
+.noticePart p,
+.newsPart p{
+    margin-left: 3em;
+    margin-bottom: 0;
+    font-size: 25px;
+    color: #0089CF;
+}
+.noticePart p{
+    margin-left: 0;
+  }
+.card-carousel {
+    margin: 0 20px 20px 20px; 
+    padding: 20px; 
+  }
+.card-carousel div div div div div{
+    margin: 0 20px;
+  }
+.card-carousel .slick-slider .slick-track{
+    margin-bottom: 25px;
+}
+  
+  .card {
+    height: 250px;
+    margin: 0 10px; 
+  }
+  
+  .card-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+  
+  .card .cardCarusalText {
+    margin: 10px 0; 
+    color: black;
+    font-size: 20px;
+    padding: 0px 5px;
+  }
+  .card .cardCarusalText {
+    margin: 10px 0; 
+    color: black;
+    font-size: 20px;
+    padding: 0px 5px;
+  }
+  .card .cardCarusalDate {
+    color: black;
+    font-size: 12px;
+    margin-left: 0;
+  }
+  
+  .noticePart button {
+    border: none;
+    background-color: white;
+    color: #FFB606;
+    font-weight: 500;
+    padding: 8px;
+  }
+  .noticePart .btnActive{
+    background-color: #FFB606;
+    color: white;
+  }
+  .allNotice{
+    border: 1px solid gray;
+    width: 80%;
+  }
+  .allNotice .singleNotice{
+    border-bottom: 1px solid gray;
+    padding: 5px 20px;
+  }
+  .allNotice .singleNotice a{
+    text-decoration: none;
+    color: #0089CF;
+    font-size: 17px;
+  }
+  .allNotice .singleNotice p{
+    color: gray;
+    font-size: 13px;
+  }
+  .allNotice .viewAllBtn{
+    text-decoration: none;
+    font-size: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  

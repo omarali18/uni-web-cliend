@@ -1,0 +1,42 @@
+.departmentName{
+    width: 100vw;
+    border-bottom: 5px solid #FFB606;
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: #0089CF;
+}
+.bannerMenueBox{
+    margin: 10px;
+    background-color: #DEE7E8;
+}
+.BannerMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #FFB606;
+
+}
+.BannerMenu span{
+    font-weight: 500;
+    font-size: 20px;
+    color: #0089CF;
+}
+.BScInCSE p{
+    font-size: 2.5em;
+    /* margin-top: 20px; */
+    color: #0089CF;
+}
+.BScInCSE a{
+    text-decoration: none;
+    font-size: 25px;
+}
+#Chairperson p{
+    font-size: 2.5em;
+    color: #0089CF;
+}
+#Chairperson div div img{
+    width: 100%;
+}
