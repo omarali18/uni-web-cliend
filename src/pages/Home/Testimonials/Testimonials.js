@@ -13,7 +13,7 @@ const Testimonials = () => {
       setShowExtraText(false);
     };
     return (
-        <div className='mt-5' style={{ width:'100%', textAlign:'center', marginBottom:"3rem"}}>
+        <div className='my-5' style={{ width:'100%', textAlign:'center', marginBottom:"3rem"}}>
             <p style={{ color:'#0089CF', fontSize:'25px', fontWeight:'500' }}>Testimonials</p>
             <div className='TestimonialBox'>
                 <div>

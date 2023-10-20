@@ -1,0 +1,17 @@
+.singleUni{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #FFB606;
+    margin: 5px;
+}
+.singleUni a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid green; */
+}
+.singleUni a img{
+    width: 100%;
+    height: 100%;
+}

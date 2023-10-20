@@ -1,0 +1,10 @@
+.photoGalleryCont{
+    width: 90%;
+    margin: auto;
+    margin-top: 5em;
+}
+.photoGalleryCont h3{
+    margin-left: 10px;
+    color: #0089CF;
+    margin-bottom: 20px;
+}
