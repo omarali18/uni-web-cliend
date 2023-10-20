@@ -160,7 +160,7 @@ const FacultyMembers = () => {
                 </div>
                 </a>
         </div>
-    </OwlCarousel>;
+    </OwlCarousel>
     
 
         </div>

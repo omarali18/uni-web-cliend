@@ -3,8 +3,9 @@ import Top from '../Top/Top';
 import Navbar from '../Navbar/Navbar';
 import Banner from '../Banner/Banner';
 import UniNotice from '../UniNotice/UniNotice';
-import SliderTest from '../SliderTest/SliderTest'
+// import SliderTest from '../SliderTest/SliderTest'
 import FacultyMembers from '../FacultyMembers/FacultyMembers';
+import Testimonials from '../Testimonials/Testimonials';
 
 const HomePage = () => {
     return (
@@ -14,6 +15,7 @@ const HomePage = () => {
             <Banner/>
             <UniNotice/>
             <FacultyMembers/>
+            <Testimonials/>
             {/* <SliderTest/> */}
             
         </div>

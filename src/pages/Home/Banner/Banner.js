@@ -108,18 +108,18 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <div className='row mt-5'>
+            <div className='row my-5'>
                 <div className='col-md-3 BScInCSE' style={{  textAlign:'center' }}>
                     <p>Quick Links</p>
                     <a href="">BSc in CSE</a>
                 </div>
-                <div className='col-md-9 MessageChar' id='Chairperson' style={{  }}>
+                <div className='col-md-9 MessageChar' id='Chairperson'>
                     <p>Message from the Chairperson</p>
                     <div className='row'>
                         <div className="col-md-2" style={{  padding:"0px"}}>
                             <img src={ChairpersonCSEMilonSir} alt="" />
                         </div>
-                        <div className="col-md-10" style={{  }}>
+                        <div className="col-md-10" >
                             <span>
                             We welcome you on behalf of the Department of Computer Science and Engineering (CSE) at Eastern University. Our department makes every effort to improve the educational quality according to the needs of today's students and employers. We have highly qualified, efficient and friendly faculty members
                             {showExtraText ? (
@@ -129,11 +129,11 @@ const Banner = () => {
                             ) : (
                             <span>
                                 <span id='moreDot'>... </span>
-                                <a href="#" id='ReadMore' onClick={readMore}>Read More</a>
+                                <span href="" id='ReadMore' onClick={readMore} style={{ color:'#0089CF' }}>Read More</span>
                             </span>
                             )}
                         </span>
-                        {showExtraText && <a href="#" id='ShowLess' onClick={showLess}>Show Less</a>}
+                        {showExtraText && <span href="#" id='ShowLess' onClick={showLess} style={{ color:'#0089CF' }}>Show Less</span>}
 
 
 
