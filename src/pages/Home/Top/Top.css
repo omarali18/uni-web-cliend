@@ -34,3 +34,12 @@
     position: absolute;
     top: 3px;
 }
+
+.topUniLogoName{
+    width: 35rem;
+}
+@media (max-width: 768px) {
+    .topUniLogoName{
+        width: 100%;
+    }
+  }

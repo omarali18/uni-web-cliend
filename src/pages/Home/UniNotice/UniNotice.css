@@ -1,19 +1,20 @@
+
+.notisContainerBox{
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+.notisContainerBox .notisContainer{
+  width: 95%;
+  margin: auto;
+}
 .noticePart p,
 .newsPart p{
-    margin-left: 3em;
     margin-bottom: 0;
     font-size: 25px;
     color: #0089CF;
 }
-.noticePart p{
-    margin-left: 0;
-  }
-.card-carousel {
-    margin: 0 20px 20px 20px; 
-    padding: 20px; 
-  }
-.card-carousel div div div div div{
-    margin: 0 20px;
+.newsSlider div div div div div{
+    margin: 0 10px;
   }
 .card-carousel .slick-slider .slick-track{
     margin-bottom: 25px;
@@ -68,7 +69,7 @@
   }
   .allNotice{
     border: 1px solid gray;
-    width: 89%;
+    /* width: 89%; */
   }
   .allNotice .singleNotice{
     border-bottom: 1px solid gray;
@@ -90,4 +91,18 @@
     width: 100%;
     text-align: center;
   }
-  
+  .slick-dots li button:before{
+    font-size: 10px!important;
+  }
+  @media (max-width: 768px) {
+    .newsSlider div div div div div{
+      margin: 0 0;
+    }
+    .card .cardCarusalText,
+    .card .cardCarusalDate{
+      margin: 10px 10px;
+    }
+    .newsPart{
+      margin-bottom: 4rem;
+    }
+  }

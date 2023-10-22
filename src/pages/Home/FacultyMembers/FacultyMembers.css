@@ -1,4 +1,61 @@
+
+
 .FacultySlider{
+    width: 95%;
+    margin: auto;
+}
+.FacultySlider p{
+    font-size: 2.5em;
+    margin-left: 20px;
+    color: #0089CF;
+}
+.FacultySlider div div div div div{
+    margin: 0 10px;
+}
+
+.facultyDetail{
+    position: absolute;
+    bottom: 0px;
+    left: -9px;
+    background-color: #00000070;
+    width: 100%;
+    padding: 10px;
+    height: 90px;
+}
+.facultyDetail .facultyName{
+    margin-bottom: 0;
+    color: #FFB606;
+    font-size: 1.6em;
+}
+.facultyDetail .facultyTitle{
+    font-size: 14px;
+    color: #fff;
+}
+.FacultySlider .slick-list .slick-track .slick-slide{
+    width: 372px!important;
+}
+
+@media (max-width: 768px) {
+    .FacultySlider div div div div div{
+        /* margin: 0 0; */
+    }
+    .slick-slider .slick-track, .slick-slider .slick-list{
+        padding-bottom: 20px;
+    }
+    .slick-dots li{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .slick-dots li button{
+        padding-left: 0;
+        padding-right: 0;
+    }
+  }
+
+ 
+
+
+/* .FacultySlider{
     margin: 0 5%;
 }
 .FacultySlider p{
@@ -23,4 +80,6 @@
 .facultyDetail .facultyTitle{
     font-size: 14px;
     color: #fff;
-}
+} */
+
+

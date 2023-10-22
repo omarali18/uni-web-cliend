@@ -24,7 +24,7 @@ import "./International.css"
 const International = () => {
     return (
         <div>
-            <div style={{ width:'90%', margin:'auto' }}>
+            <div style={{ width:'95%', margin:'auto' }}>
                 <h3 style={{ color: '#0089CF' }}>International Academic Collaborations</h3>
                 <div>
                     <div className='singleUni'>

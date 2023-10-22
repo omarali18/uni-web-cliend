@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -13,13 +13,33 @@ import "./UniNotice.css"
 
 const UniNotice = () => {
     const [showEvent, setShowEvent] = useState(false);
+    const [slidesToShow, setSlidesToShow] = useState(2);
     const settings = {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 2,
+        slidesToShow: slidesToShow,
         slidesToScroll: 1,
       };
+
+      const updateSlidesToShow = () => {
+        if (window.innerWidth < 768) {
+          console.log("skjksdooooo");
+          setSlidesToShow(1);
+        } else {
+          setSlidesToShow(2);
+        }
+      };
+    
+      useEffect(() => {
+        updateSlidesToShow();
+    
+        window.addEventListener('resize', updateSlidesToShow);
+    
+        return () => {
+          window.removeEventListener('resize', updateSlidesToShow);
+        };
+      }, []);
     
       const cardData = [
         {
@@ -81,17 +101,17 @@ const UniNotice = () => {
 
 
     return (
-        <div style={{ marginBottom:"6em" }}>
-            <div className="row">
+        <div className='notisContainerBox' >
+            <div className="row notisContainer">
                 <div className="col-md-6 newsPart">
                     <p>News</p>
-                    <div className="card-carousel">
+                    <div className="card-carousel newsSlider">
                     <Slider {...settings}>
                         {cardData.map((card, index) => (
                         <div key={index} className="card">
                             <div className="card-content" style={{marginRight: '0px', marginLeft: '0px'}}>
                             <img src={card.image} alt={`Card ${index}`} />
-                            <div style={{ margin:'0px' }}>
+                            <div >
                             <p className='cardCarusalText'>{card.text}</p>
                             <p className='cardCarusalDate'>{card.text_2}</p>
                             </div>

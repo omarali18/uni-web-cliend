@@ -9,3 +9,9 @@
     border-radius: 50%;
     box-shadow: 5px -2px #0089CF!important;
 }
+
+@media (max-width: 768px) {
+    .TestimonialBox{
+        width: 95%;
+    }
+  }

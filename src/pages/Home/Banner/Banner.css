@@ -24,9 +24,12 @@
     font-size: 20px;
     color: #0089CF;
 }
+.ChairpersonSMSContainer{
+    width: 95%;
+    margin: auto;
+}
 .BScInCSE p{
     font-size: 2.5em;
-    /* margin-top: 20px; */
     color: #0089CF;
 }
 .BScInCSE a{
@@ -40,3 +43,15 @@
 #Chairperson div div img{
     width: 100%;
 }
+#Chairperson .row{
+    padding-left: 16px;
+}
+
+@media (max-width: 768px) {
+    .BScInCSE{
+        display: none;
+    }
+    #Chairperson .row{
+        padding-left: 0;
+    }
+  }
